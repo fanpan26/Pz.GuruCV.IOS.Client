@@ -8,17 +8,9 @@
 
 #import <UIKit/UIKit.h>
 @class GRMyCardTopFrame;
+@class GRUserPeople;
 @interface GRMyCardTopView : UIView
 
-
-@property(nonatomic,strong,readonly) UIImageView *userPhoto;
-@property(nonatomic,strong,readonly) UILabel *userName;
-@property(nonatomic,strong,readonly) UILabel *gradeMajor;
-@property(nonatomic,strong,readonly) UILabel *company;
-@property(nonatomic,strong,readonly) UILabel *position;
-@property(nonatomic,strong,readonly) UIButton *userCard;
-@property(nonatomic,strong,readonly) UIButton *userBiography;
-
-@property(nonatomic,strong) GRMyCardTopFrame *topFrame;
+@property(nonatomic,strong) GRUserPeople *userModel;
 
 @end
