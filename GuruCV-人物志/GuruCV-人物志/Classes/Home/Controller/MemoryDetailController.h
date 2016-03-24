@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GRParentController.h"
+#import "GRUserPeople.h"
+#import "GRActivityModel.h"
 
-@interface MemoryDetailController : UIViewController
+@interface MemoryDetailController : GRParentController
 
 @end

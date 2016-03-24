@@ -19,8 +19,6 @@
 		2C0EA03A1B84B80C00EA54D5 /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EA0391B84B80C00EA54D5 /* MyController.m */; };
 		2C0EA03D1B84B82E00EA54D5 /* PeopleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EA03C1B84B82E00EA54D5 /* PeopleController.m */; };
 		2C0EA0401B84B83A00EA54D5 /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EA03F1B84B83A00EA54D5 /* SettingController.m */; };
-		2C0EA0471B84B93B00EA54D5 /* GRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EA0461B84B93B00EA54D5 /* GRNavigationController.m */; };
-		2C0EA04A1B84BA0800EA54D5 /* GRDock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EA0491B84BA0800EA54D5 /* GRDock.m */; };
 		2C0EA04D1B84BA4100EA54D5 /* GRDockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EA04C1B84BA4100EA54D5 /* GRDockController.m */; };
 		2C0EA0501B84C08000EA54D5 /* GRMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EA04F1B84C08000EA54D5 /* GRMainController.m */; };
 		2C0EA0551B84C8EC00EA54D5 /* UIBarButtonItem+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EA0521B84C8EC00EA54D5 /* UIBarButtonItem+MJ.m */; };
@@ -261,7 +259,6 @@
 		2C0EA2381B84CACC00EA54D5 /* toolbar_button_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C0EA14C1B84CACC00EA54D5 /* toolbar_button_disable@2x.png */; };
 		2C0EA2391B84CACC00EA54D5 /* toolbar_button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C0EA14D1B84CACC00EA54D5 /* toolbar_button_highlighted.png */; };
 		2C0EA23A1B84CACC00EA54D5 /* toolbar_button_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C0EA14E1B84CACC00EA54D5 /* toolbar_button_highlighted@2x.png */; };
-		2C0EA23D1B84CCBB00EA54D5 /* GRDockItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EA23C1B84CCBB00EA54D5 /* GRDockItem.m */; };
 		2C0EA2441B84D13500EA54D5 /* FootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EA2431B84D13500EA54D5 /* FootController.m */; };
 		2C0EA2471B84D8C800EA54D5 /* GRUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EA2461B84D8C800EA54D5 /* GRUser.m */; };
 		2C0EA24D1B84DA9700EA54D5 /* GRUserContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0EA24C1B84DA9700EA54D5 /* GRUserContact.m */; };
@@ -316,6 +313,12 @@
 		2C52C83A1B8C9620004F3A5A /* GRSelectUserCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C52C8391B8C9620004F3A5A /* GRSelectUserCategoryView.m */; };
 		2C52C83D1B8CA446004F3A5A /* GRBaseRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C52C83C1B8CA446004F3A5A /* GRBaseRegisterView.m */; };
 		2C52C8401B8CA6B2004F3A5A /* GRSelectSchoolInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C52C83F1B8CA6B2004F3A5A /* GRSelectSchoolInfoView.m */; };
+		2C86C97A1BA1CBAA009A1ACB /* icon_shu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C86C9791BA1CBAA009A1ACB /* icon_shu.png */; };
+		2C97A95A1B95FB2500BC34E6 /* GRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C97A9591B95FB2500BC34E6 /* GRNavigationController.m */; };
+		2C97A9601B95FB9A00BC34E6 /* GRDock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C97A95D1B95FB9A00BC34E6 /* GRDock.m */; };
+		2C97A9611B95FB9A00BC34E6 /* GRDockItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C97A95F1B95FB9A00BC34E6 /* GRDockItem.m */; };
+		2C97A9651B95FBD000BC34E6 /* GRBottomBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C97A9641B95FBD000BC34E6 /* GRBottomBarItem.m */; };
+		2C97A9681B95FBEC00BC34E6 /* GRBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C97A9671B95FBEC00BC34E6 /* GRBottomBar.m */; };
 		2CA95D271B90A2190084F380 /* icon_activity.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CA95CDB1B90A2190084F380 /* icon_activity.png */; };
 		2CA95D281B90A2190084F380 /* icon_activity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CA95CDC1B90A2190084F380 /* icon_activity@2x.png */; };
 		2CA95D291B90A2190084F380 /* icon_activity_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CA95CDD1B90A2190084F380 /* icon_activity_highlighted.png */; };
@@ -413,6 +416,7 @@
 		2CED363A1B879D2A00092F97 /* GRUserCardListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED36391B879D2A00092F97 /* GRUserCardListModel.m */; };
 		2CED363D1B879D9400092F97 /* GRUserCardDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED363C1B879D9400092F97 /* GRUserCardDetailModel.m */; };
 		2CED36401B879E2500092F97 /* DataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED363F1B879E2500092F97 /* DataTool.m */; };
+		2CF9530C1B91551100E02156 /* GRMyCardBottomBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF9530B1B91551100E02156 /* GRMyCardBottomBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -451,10 +455,6 @@
 		2C0EA03C1B84B82E00EA54D5 /* PeopleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleController.m; sourceTree = "<group>"; };
 		2C0EA03E1B84B83A00EA54D5 /* SettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingController.h; sourceTree = "<group>"; };
 		2C0EA03F1B84B83A00EA54D5 /* SettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingController.m; sourceTree = "<group>"; };
-		2C0EA0451B84B93B00EA54D5 /* GRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRNavigationController.h; path = ../GRNavigationController.h; sourceTree = "<group>"; };
-		2C0EA0461B84B93B00EA54D5 /* GRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRNavigationController.m; path = ../GRNavigationController.m; sourceTree = "<group>"; };
-		2C0EA0481B84BA0800EA54D5 /* GRDock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDock.h; sourceTree = "<group>"; };
-		2C0EA0491B84BA0800EA54D5 /* GRDock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDock.m; sourceTree = "<group>"; };
 		2C0EA04B1B84BA4100EA54D5 /* GRDockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDockController.h; sourceTree = "<group>"; };
 		2C0EA04C1B84BA4100EA54D5 /* GRDockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDockController.m; sourceTree = "<group>"; };
 		2C0EA04E1B84C08000EA54D5 /* GRMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMainController.h; sourceTree = "<group>"; };
@@ -699,8 +699,6 @@
 		2C0EA14C1B84CACC00EA54D5 /* toolbar_button_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar_button_disable@2x.png"; sourceTree = "<group>"; };
 		2C0EA14D1B84CACC00EA54D5 /* toolbar_button_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbar_button_highlighted.png; sourceTree = "<group>"; };
 		2C0EA14E1B84CACC00EA54D5 /* toolbar_button_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar_button_highlighted@2x.png"; sourceTree = "<group>"; };
-		2C0EA23B1B84CCBB00EA54D5 /* GRDockItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDockItem.h; sourceTree = "<group>"; };
-		2C0EA23C1B84CCBB00EA54D5 /* GRDockItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDockItem.m; sourceTree = "<group>"; };
 		2C0EA2421B84D13500EA54D5 /* FootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FootController.h; sourceTree = "<group>"; };
 		2C0EA2431B84D13500EA54D5 /* FootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FootController.m; sourceTree = "<group>"; };
 		2C0EA2451B84D8C800EA54D5 /* GRUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRUser.h; sourceTree = "<group>"; };
@@ -812,6 +810,17 @@
 		2C52C83E1B8CA6B2004F3A5A /* GRSelectSchoolInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSelectSchoolInfoView.h; sourceTree = "<group>"; };
 		2C52C83F1B8CA6B2004F3A5A /* GRSelectSchoolInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSelectSchoolInfoView.m; sourceTree = "<group>"; };
 		2C52C8411B8CB55F004F3A5A /* GRHttpUrls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRHttpUrls.h; sourceTree = "<group>"; };
+		2C86C9791BA1CBAA009A1ACB /* icon_shu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_shu.png; sourceTree = "<group>"; };
+		2C97A9581B95FB2500BC34E6 /* GRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRNavigationController.h; sourceTree = "<group>"; };
+		2C97A9591B95FB2500BC34E6 /* GRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRNavigationController.m; sourceTree = "<group>"; };
+		2C97A95C1B95FB9A00BC34E6 /* GRDock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDock.h; sourceTree = "<group>"; };
+		2C97A95D1B95FB9A00BC34E6 /* GRDock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDock.m; sourceTree = "<group>"; };
+		2C97A95E1B95FB9A00BC34E6 /* GRDockItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDockItem.h; sourceTree = "<group>"; };
+		2C97A95F1B95FB9A00BC34E6 /* GRDockItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDockItem.m; sourceTree = "<group>"; };
+		2C97A9631B95FBD000BC34E6 /* GRBottomBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRBottomBarItem.h; sourceTree = "<group>"; };
+		2C97A9641B95FBD000BC34E6 /* GRBottomBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRBottomBarItem.m; sourceTree = "<group>"; };
+		2C97A9661B95FBEC00BC34E6 /* GRBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRBottomBar.h; sourceTree = "<group>"; };
+		2C97A9671B95FBEC00BC34E6 /* GRBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRBottomBar.m; sourceTree = "<group>"; };
 		2CA95CDB1B90A2190084F380 /* icon_activity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_activity.png; sourceTree = "<group>"; };
 		2CA95CDC1B90A2190084F380 /* icon_activity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_activity@2x.png"; sourceTree = "<group>"; };
 		2CA95CDD1B90A2190084F380 /* icon_activity_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_activity_highlighted.png; sourceTree = "<group>"; };
@@ -920,6 +929,8 @@
 		2CED363C1B879D9400092F97 /* GRUserCardDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRUserCardDetailModel.m; sourceTree = "<group>"; };
 		2CED363E1B879E2500092F97 /* DataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTool.h; sourceTree = "<group>"; };
 		2CED363F1B879E2500092F97 /* DataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTool.m; sourceTree = "<group>"; };
+		2CF9530A1B91551100E02156 /* GRMyCardBottomBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMyCardBottomBarView.h; sourceTree = "<group>"; };
+		2CF9530B1B91551100E02156 /* GRMyCardBottomBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRMyCardBottomBarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1210,6 +1221,8 @@
 				2CED36331B8799FD00092F97 /* GroupCell.m */,
 				2C2F202C1B8F6C2300411F5D /* GRMyCardTopView.h */,
 				2C2F202D1B8F6C2300411F5D /* GRMyCardTopView.m */,
+				2CF9530A1B91551100E02156 /* GRMyCardBottomBarView.h */,
+				2CF9530B1B91551100E02156 /* GRMyCardBottomBarView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1348,8 +1361,8 @@
 		2C0EA0431B84B91B00EA54D5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2C0EA0451B84B93B00EA54D5 /* GRNavigationController.h */,
-				2C0EA0461B84B93B00EA54D5 /* GRNavigationController.m */,
+				2C97A9581B95FB2500BC34E6 /* GRNavigationController.h */,
+				2C97A9591B95FB2500BC34E6 /* GRNavigationController.m */,
 				2C0EA04B1B84BA4100EA54D5 /* GRDockController.h */,
 				2C0EA04C1B84BA4100EA54D5 /* GRDockController.m */,
 				2C0EA04E1B84C08000EA54D5 /* GRMainController.h */,
@@ -1363,12 +1376,10 @@
 		2C0EA0441B84B91B00EA54D5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2C97A9621B95FBD000BC34E6 /* BottomBar */,
+				2C97A95B1B95FB9A00BC34E6 /* Dock */,
 				2C527E8F1B88318100B1F24E /* BaseCell.h */,
 				2C527E901B88318100B1F24E /* BaseCell.m */,
-				2C0EA0481B84BA0800EA54D5 /* GRDock.h */,
-				2C0EA0491B84BA0800EA54D5 /* GRDock.m */,
-				2C0EA23B1B84CCBB00EA54D5 /* GRDockItem.h */,
-				2C0EA23C1B84CCBB00EA54D5 /* GRDockItem.m */,
 				2CD21F721B860C23009173A5 /* GRImageScrollCell.h */,
 				2CD21F731B860C23009173A5 /* GRImageScrollCell.m */,
 				2C42F7EB1B8B4C77007CB565 /* GRCommonTextField.h */,
@@ -1804,9 +1815,32 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		2C97A95B1B95FB9A00BC34E6 /* Dock */ = {
+			isa = PBXGroup;
+			children = (
+				2C97A95C1B95FB9A00BC34E6 /* GRDock.h */,
+				2C97A95D1B95FB9A00BC34E6 /* GRDock.m */,
+				2C97A95E1B95FB9A00BC34E6 /* GRDockItem.h */,
+				2C97A95F1B95FB9A00BC34E6 /* GRDockItem.m */,
+			);
+			path = Dock;
+			sourceTree = "<group>";
+		};
+		2C97A9621B95FBD000BC34E6 /* BottomBar */ = {
+			isa = PBXGroup;
+			children = (
+				2C97A9631B95FBD000BC34E6 /* GRBottomBarItem.h */,
+				2C97A9641B95FBD000BC34E6 /* GRBottomBarItem.m */,
+				2C97A9661B95FBEC00BC34E6 /* GRBottomBar.h */,
+				2C97A9671B95FBEC00BC34E6 /* GRBottomBar.m */,
+			);
+			path = BottomBar;
+			sourceTree = "<group>";
+		};
 		2CA95CDA1B90A2190084F380 /* MyIcon */ = {
 			isa = PBXGroup;
 			children = (
+				2C86C9791BA1CBAA009A1ACB /* icon_shu.png */,
 				2CA95CDB1B90A2190084F380 /* icon_activity.png */,
 				2CA95CDC1B90A2190084F380 /* icon_activity@2x.png */,
 				2CA95CDD1B90A2190084F380 /* icon_activity_highlighted.png */,
@@ -1993,6 +2027,7 @@
 				TargetAttributes = {
 					2C0E9FE91B84B2A400EA54D5 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = WX7HG5RLRC;
 					};
 					2C0EA0021B84B2A400EA54D5 = {
 						CreatedOnToolsVersion = 6.2;
@@ -2250,6 +2285,7 @@
 				2C0EA1E01B84CACC00EA54D5 /* timeline_card_middlebottom@2x.png in Resources */,
 				2C0EA1A41B84CACC00EA54D5 /* statusdetail_icon_favorite_highlighted@2x.png in Resources */,
 				2C0EA23A1B84CACC00EA54D5 /* toolbar_button_highlighted@2x.png in Resources */,
+				2C86C97A1BA1CBAA009A1ACB /* icon_shu.png in Resources */,
 				2C0EA1861B84CACC00EA54D5 /* statusdetail_comment_icon_comment_highlighted@2x.png in Resources */,
 				2C0EA2271B84CACC00EA54D5 /* new_feature_finish_button.png in Resources */,
 				2C0EA1E11B84CACC00EA54D5 /* timeline_card_middlebottom_highlighted.png in Resources */,
@@ -2367,6 +2403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF9530C1B91551100E02156 /* GRMyCardBottomBarView.m in Sources */,
 				2C0EA0551B84C8EC00EA54D5 /* UIBarButtonItem+MJ.m in Sources */,
 				2C0EA2A21B84DAF400EA54D5 /* SDWebImagePrefetcher.m in Sources */,
 				2C0EA29A1B84DAF400EA54D5 /* MKAnnotationView+WebCache.m in Sources */,
@@ -2379,7 +2416,6 @@
 				2C0EA28C1B84DAF400EA54D5 /* AFHTTPRequestOperation.m in Sources */,
 				2C0EA2A51B84DAF400EA54D5 /* UIImage+MultiFormat.m in Sources */,
 				2C0EA2991B84DAF400EA54D5 /* MJRefreshHeaderView.m in Sources */,
-				2C0EA04A1B84BA0800EA54D5 /* GRDock.m in Sources */,
 				2C0EA2471B84D8C800EA54D5 /* GRUser.m in Sources */,
 				2C0EA0341B84B7D300EA54D5 /* HelpController.m in Sources */,
 				2C527E941B88324000B1F24E /* GRActivityCell.m in Sources */,
@@ -2387,7 +2423,7 @@
 				2C0E9FF61B84B2A400EA54D5 /* ViewController.m in Sources */,
 				2C0EA2A41B84DAF400EA54D5 /* UIImage+GIF.m in Sources */,
 				2C52C8311B8C9289004F3A5A /* GRRegisterFirstController.m in Sources */,
-				2C0EA0471B84B93B00EA54D5 /* GRNavigationController.m in Sources */,
+				2C97A95A1B95FB2500BC34E6 /* GRNavigationController.m in Sources */,
 				2C1D7D661B8B6C6200450ABD /* HttpTool.m in Sources */,
 				2CED363D1B879D9400092F97 /* GRUserCardDetailModel.m in Sources */,
 				2C0EA29F1B84DAF400EA54D5 /* SDWebImageDownloader.m in Sources */,
@@ -2406,8 +2442,9 @@
 				2C0EA03A1B84B80C00EA54D5 /* MyController.m in Sources */,
 				2C52C8371B8C92B0004F3A5A /* GRRegisterThirdController.m in Sources */,
 				2CED363A1B879D2A00092F97 /* GRUserCardListModel.m in Sources */,
-				2C0EA23D1B84CCBB00EA54D5 /* GRDockItem.m in Sources */,
+				2C97A9611B95FB9A00BC34E6 /* GRDockItem.m in Sources */,
 				2C0EA2A01B84DAF400EA54D5 /* SDWebImageDownloaderOperation.m in Sources */,
+				2C97A9681B95FBEC00BC34E6 /* GRBottomBar.m in Sources */,
 				2C527E911B88318100B1F24E /* BaseCell.m in Sources */,
 				2C0EA2911B84DAF400EA54D5 /* AFURLConnectionOperation.m in Sources */,
 				2C0EA2921B84DAF400EA54D5 /* AFURLRequestSerialization.m in Sources */,
@@ -2421,6 +2458,7 @@
 				2C527E9A1B88392300B1F24E /* GRActivityBottomBar.m in Sources */,
 				2C42F7ED1B8B4C77007CB565 /* GRCommonTextField.m in Sources */,
 				2C0EA04D1B84BA4100EA54D5 /* GRDockController.m in Sources */,
+				2C97A9601B95FB9A00BC34E6 /* GRDock.m in Sources */,
 				2C0EA2971B84DAF400EA54D5 /* MJRefreshBaseView.m in Sources */,
 				2CED36311B878CE200092F97 /* UserCardController.m in Sources */,
 				2C42F7F31B8B5D37007CB565 /* GRForgetPwdSecondController.m in Sources */,
@@ -2428,6 +2466,7 @@
 				2C527EA31B883E3600B1F24E /* UserCardTagsEditController.m in Sources */,
 				2C2F20311B8F6D9F00411F5D /* GRMyCardTopFrame.m in Sources */,
 				2C0EA2A31B84DAF400EA54D5 /* UIButton+WebCache.m in Sources */,
+				2C97A9651B95FBD000BC34E6 /* GRBottomBarItem.m in Sources */,
 				2C52C8401B8CA6B2004F3A5A /* GRSelectSchoolInfoView.m in Sources */,
 				2C42F7E41B8B4A86007CB565 /* GRLoginController.m in Sources */,
 				2C0E9FF01B84B2A400EA54D5 /* main.m in Sources */,
@@ -2567,6 +2606,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "/Users/pz/Desktop/Pz.GuruCV/Pz.GuruCV.IOS.Client/GuruCV-人物志/GuruCV-人物志/Classes/Common/Global/Common.h";
 				INFOPLIST_FILE = "GuruCV-人物志/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2578,6 +2618,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "/Users/pz/Desktop/Pz.GuruCV/Pz.GuruCV.IOS.Client/GuruCV-人物志/GuruCV-人物志/Classes/Common/Global/Common.h";
 				INFOPLIST_FILE = "GuruCV-人物志/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

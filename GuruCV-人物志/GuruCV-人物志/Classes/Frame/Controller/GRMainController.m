@@ -47,6 +47,7 @@
     //人物
      GRNavigationController *people = [[GRNavigationController alloc] initWithRootViewController:[[PeopleController alloc] init]];
     //我的
+    //MyController *my = [[MyController alloc] init];
      GRNavigationController *my = [[GRNavigationController alloc] initWithRootViewController:[[MyController alloc] init]];
     //设置
      GRNavigationController *setting = [[GRNavigationController alloc] initWithRootViewController:[[SettingController alloc] init]];
@@ -75,6 +76,9 @@
     
     // 1.获得当期导航控制器的根控制器
     UIViewController *root = navigationController.viewControllers[0];
+    if ([viewController isKindOfClass:[MyController class]]) {
+        [navigationController setNavigationBarHidden:YES];
+    }
     if (root != viewController) { // 不是根控制器
         // {0, 20}, {320, 460}
         // 2.拉长导航控制器的view
@@ -100,7 +104,6 @@
 
 - (void)back
 {
-    NSLog(@"怎么了，颜色呢？");
     [self.childViewControllers[self.dock.selectedIndex] popViewControllerAnimated:YES];
 }
 

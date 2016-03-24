@@ -10,8 +10,8 @@
 #import "AFNetworking.h"
 #import "UIImageView+WebCache.h"
 
-#define kBaseURL @"http://www.gurucv.ms/"
-
+#define kBaseURL @"http://www.ppoint.me/pinpoint/"
+//http://192.168.1.200:83/pinPoint/
 @implementation HttpTool
 
 + (void) requestWithPath:(NSString *)path params:(NSDictionary *)params success:(HttpSuccessBlock)success failure:(HttpFailureBlock)failure method:(NSString *) method
@@ -20,25 +20,27 @@
 
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
     //追加accesstoken参数
-    NSString *accessToken = @"accessToken";
+    NSString *accessToken = @"153cd7af82bf423895ecb5bc93c2706c";
     if (params) {
-        [dic setDictionary:params];
+       [dic setDictionary:params];
     }
-    if (accessToken) {
-        [dic setValue:accessToken forKey:@"access_token"];
-    }
+//    if (accessToken) {
+//        [dic setValue:accessToken forKey:@"userToken"];
+//    }
     //拼接url
     NSString  *url = [kBaseURL stringByAppendingString:path];
+    NSString *encodingUrl =[url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     if ([method.lowercaseString isEqualToString:@"get"]) {
-        [manager GET:url parameters:dic success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        [manager GET:encodingUrl parameters:dic success:^(AFHTTPRequestOperation *operation, id responseObject) {
             success(responseObject);
         } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+            
             if (failure!=nil) {
                 failure(error);
             }
         }];
     }else{
-        [manager POST:url parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        [manager POST:encodingUrl parameters:dic success:^(AFHTTPRequestOperation *operation, id responseObject) {
             success(responseObject);
         } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
             if (failure !=nil) {

@@ -11,6 +11,8 @@
 #import "DataTool.h"
 #import "GRImageScrollCell.h"
 #import "GRActivityCell.h"
+#import "MemoryDetailController.h"
+#import "HttpTool.h"
 
 @interface HomeController()
 {
@@ -28,6 +30,43 @@
     [self loadUI];
     [self loadTopImages];
     [self loadActivies];
+//    [HttpTool postWithPath:@"app/api/verifyToken" params:nil success:^(id JSON) {
+//        NSLog(@"%@",JSON[@"msg"]);
+//        
+//    } failure:^(NSError *error) {
+//        NSLog(@"%@",error);
+//    }];
+//    
+//    [HttpTool postWithPath:@"/app/api/user/findCompany" params:@{@"clientType":@1,@"userId":@"0da00a1ca94d4fa0b474cbd8180e396a"} success:^(id JSON) {
+//        NSLog(@"%@",JSON);
+//        
+//    } failure:^(NSError *error) {
+//        NSLog(@"%@",error);
+//
+//    }];
+//    
+//    
+//    [HttpTool postWithPath:@"app/api/user/getUserInfo" params:@{@"clientType":@1,@"userId":@"0da00a1ca94d4fa0b474cbd8180e396a"} success:^(id JSON) {
+//        NSLog(@"%@",JSON);
+//        
+//    } failure:^(NSError *error) {
+//        NSLog(@"%@",error);
+//        
+//    }];
+    
+    [HttpTool postWithPath:@"app/api/login" params:@{@"username":@"pengfeifei26@163.com",@"password":@"123456",@"clientType":@1} success:^(id JSON) {
+        NSLog(@"%@=====",JSON);
+        
+    } failure:^(NSError *error) {
+        NSLog(@"====%@",error);
+        
+    }];
+    
+    [HttpTool getWithPath:@"app/api/login?username=pengfeifei26&password=a123456&clientType=1" params:nil success:^(id JSON) {
+        NSLog(@"%@=====",JSON);
+    } failure:^(NSError *error) {
+        
+    }];
 }
 
 - (void) loadUI
@@ -123,6 +162,15 @@
         cell.cellFrame = _activiesData[indexPath.row];
         return cell;
     }
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    MemoryDetailController *detail = [[MemoryDetailController alloc] init];
+    detail.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithIcon:@"navbar_down" highlightedIcon:@"navbar_down_highlighted" target:self action:nil];
+    [self.navigationController pushViewController:detail animated:YES];
+    
+    NSLog(@"pushViewController");
 }
 
 

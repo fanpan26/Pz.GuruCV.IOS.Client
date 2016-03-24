@@ -39,6 +39,7 @@
 - (void) buildUI
 {
     self.title = @"编辑名片";
+    [self.navigationController setNavigationBarHidden:NO];
 }
 
 - (void) loadPlist

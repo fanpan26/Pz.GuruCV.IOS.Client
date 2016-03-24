@@ -9,20 +9,33 @@
 #import "MyController.h"
 #import "UserCardController.h"
 #import "MemoryDetailController.h"
+#import "GRMyCardTopView.h"
+#import "GRUserPeople.h"
+#import "GRMyCardBottomBarView.h"
 
+
+@interface MyController()<GRMyCardBottomBarViewDeletage>
+
+@end
 @implementation MyController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     self.title = @"我的";
-    self.view.backgroundColor = [UIColor whiteColor];
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btn addTarget: self action:@selector(jump) forControlEvents:UIControlEventTouchUpInside];
-    btn.frame = CGRectMake(0, 0, 200, 200);
-    [btn setTitle:@"查看我的名片" forState:UIControlStateNormal];
-    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [self.view addSubview:btn];
+    self.view.backgroundColor = kGlobalBackGroundViewColor;
+    [self buildUI];
+}
+
+- (void)buildUI
+{
+   // [self.navigationController setNavigationBarHidden:YES];
+    GRMyCardTopView *view = [[GRMyCardTopView alloc] init];
+    view.frame = CGRectMake(0, 0, 0, 0);
+    GRUserPeople *model = [[GRUserPeople alloc] init];
+    view.userModel  = model;
+    view.bottonBar.delegate = self;
+    [self.view addSubview:view];
 }
 
 - (void)jump
@@ -31,5 +44,12 @@
     UserCardController *userCard = [[UserCardController alloc] init];
     [self.navigationController pushViewController:userCard animated:YES];
     
+}
+
+-(void)myCardView:(GRMyCardBottomBarView *)myCardView didClickedBarItem:(UIButton *)item
+{
+    if (item.tag == 1) {
+        [self jump];
+    }
 }
 @end

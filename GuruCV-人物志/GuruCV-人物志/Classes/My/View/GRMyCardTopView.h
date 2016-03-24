@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 @class GRMyCardTopFrame;
 @class GRUserPeople;
+@class GRMyCardBottomBarView;
+
 @interface GRMyCardTopView : UIView
 
 @property(nonatomic,strong) GRUserPeople *userModel;
 
+@property(nonatomic,strong) GRMyCardBottomBarView *bottonBar;
 @end

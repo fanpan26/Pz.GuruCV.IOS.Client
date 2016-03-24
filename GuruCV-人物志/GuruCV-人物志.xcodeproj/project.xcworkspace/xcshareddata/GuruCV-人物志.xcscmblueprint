@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CB274E06620C611070CBBEF0BEBEC34D1FF8841C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CB274E06620C611070CBBEF0BEBEC34D1FF8841C" : 0,
+    "92A070A645ADEE53400E325BE302E1628403EA78" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CE2ABB15-6600-4472-B07E-6752640BB31B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CB274E06620C611070CBBEF0BEBEC34D1FF8841C" : "Pz.GuruCV.IOS.Client",
+    "92A070A645ADEE53400E325BE302E1628403EA78" : "PzProjects"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GuruCV-人物志",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GuruCV-人物志\/GuruCV-人物志.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fanpan26\/PzProjects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "92A070A645ADEE53400E325BE302E1628403EA78"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fanpan26\/Pz.GuruCV.IOS.Client.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB274E06620C611070CBBEF0BEBEC34D1FF8841C"
+    }
+  ]
+}

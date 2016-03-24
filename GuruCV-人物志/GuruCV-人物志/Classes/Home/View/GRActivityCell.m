@@ -76,6 +76,7 @@
     [self addView:bar];
     _contentActivityBottomBar = bar;
     _contentUserView.hidden = YES;
+    
 }
 
 //设置背景图片
